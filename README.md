@@ -1,2 +1,2 @@
-# transforming-rotherham
-Styles and assets for Transforming Rotherham
+# design-manual
+Rotherham MBC Design System
