@@ -3,13 +3,9 @@
 
 // Custom Media Query Variables
 
+/* fonts */
 
-/*
-   RMBC Custom Fonts
-   Docs Josefin: https://fonts.google.com/specimen/Josefin+Sans
-   Docs Muli: https://fonts.google.com/specimen/Muli
-*/
-
+/* Josefin */
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700');
 
@@ -17,8 +13,10 @@
   font-family: 'Josefin Sans', sans-serif;
   }
   
-@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700');
+/* Roboto */
 
-.muli {
-  font-family: 'Muli', sans-serif;
-  }
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
