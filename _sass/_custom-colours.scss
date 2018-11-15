@@ -115,3 +115,15 @@
 .hover-gold:focus { color: #fbc093; }
 .hover-bg-gold:hover,
 .hover-bg-gold:focus { background-color: #fbc093; }
+
+/* gradients */
+
+.bg-grad {
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(122,194,148,1) 100%);
+}
+
+.bg-grad-light {
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,.8) 0%, rgba(122,194,148,.8) 100%);
+}
