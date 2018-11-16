@@ -5,7 +5,7 @@
 .sticky {
   position: sticky;
   position: -webkit-sticky;
-  top: 0px;
+  top: 0;
 }
 
 /* Rules for 'ns' - not small */
@@ -13,7 +13,7 @@
   .sticky-ns {
     position: sticky;
     position: -webkit-sticky;
-    top: 0px;
+    top: 0;
   }
 }
 
@@ -22,7 +22,7 @@
   .sticky-m {
     position: sticky;
     position: -webkit-sticky;
-    top: 0px;
+    top: 0;
   }
 }
 
@@ -31,6 +31,6 @@
   .sticky-l {
     position: sticky;
     position: -webkit-sticky;
-    top: 0px;
+    top: 0;
   }
 }
