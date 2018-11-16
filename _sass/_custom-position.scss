@@ -1,0 +1,36 @@
+/* Custom position */
+
+/* Sticky */
+
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+}
+
+/* Rules for 'ns' - not small */
+@media screen and (min-width: 30em) {
+  .sticky-ns {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+  }
+}
+
+/* Rules for 'm' - medium */
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .sticky-m {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+  }
+}
+
+/* Rules for 'l' - large */
+@media screen and (min-width: 60em) {
+  .sticky-l {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+  }
+}
