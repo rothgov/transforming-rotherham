@@ -2,10 +2,9 @@ a:hover {
     border-bottom: 0;
   }
 
-a:active, a:focus {
+a:active, a:focus, input:active, input:focus {
     transition: none;
-    outline-width: 2px;
-    outline-style: dotted;
-    outline-color: #ffd308;
-    outline-offset: 3px;
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #ffbf47;
   }
